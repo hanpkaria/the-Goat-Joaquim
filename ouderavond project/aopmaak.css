@@ -28,7 +28,7 @@ p{
     background-color: #01C9BD;
     width: 70vw;
     text-align: left;
-    borrer-radius: 0.3cm;
+    border-radius: 0.3cm;
     height: 50vh;
 }
 
@@ -36,4 +36,3 @@ p{
 .center {
     margin: auto;
 width: 70%;}
-

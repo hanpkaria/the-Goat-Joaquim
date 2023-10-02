@@ -41,8 +41,10 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  background: #00a8c7;
+  background-color: #01C9BD;
   justify-content: space-between;
+  position: fixed;
+
 }
 .sticky {
   position: fixed;
@@ -61,4 +63,24 @@ nav li {
 nav a{
   color: white;
   text-decoration: none;
+}
+
+a{
+font-size: 23px;
+
+}
+
+img{
+
+  margin-top: 200px;
+  display: block; 
+
+}
+
+p{
+
+font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }

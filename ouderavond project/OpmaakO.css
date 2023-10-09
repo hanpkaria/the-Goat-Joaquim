@@ -172,7 +172,7 @@ nav a{
   justify-content: center;
 }
 
-.canvascenter{
+.canvascenter {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -193,8 +193,6 @@ nav a{
   border-radius: 10px;
   color: white;
 }
-
-
 
 .agip{
   font-size: 30px;

@@ -131,37 +131,21 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
-.canvascenter {
-  margin: auto;
-width: 70%;
-}
-.canvascontainer {
-  display: flexbox;
-}
-.canvastekstblok {
-  flex: 1; 
-  padding: 20px;
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  outline-style: solid;
-}
+
 .canvasbody {
   margin: 0;
   font-family: Arial, sans-serif;
-  display: flex;
   height: 50vh;
   align-items: center;
   justify-content: center;
 }
 
 .canvascenter{
-  display: flex;
   text-align: center;
   justify-content: center;
-  margin-top: 300px;
 }
 .canvascolumn {
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
@@ -169,7 +153,6 @@ width: 70%;
   height: 70vh;
 }
 .canvastext-box {
-
   background-color: #01C9BD;
   padding: 20px;
   border-radius: 10px;
@@ -183,7 +166,7 @@ width: 70%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 15px;
   margin: auto;
-  outline-style: solid;;
+  outline-style: solid;
   background-color: #01C9BD;
   width: 70vw;
   text-align: left;
@@ -201,7 +184,8 @@ width: 70%;
 }
 
 .agicenter{
-  display: flex;
+  margin: auto;
+  width: 600px;
   text-align: center;
   justify-content: center;
 

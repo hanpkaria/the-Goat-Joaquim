@@ -1,50 +1,32 @@
 body{
-
 background-color: #40ffff;
 }
-
 h1{
-
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    outline-style: solid;
-    background-color: #04eeee;
-    
-    text-align: center;
-
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+outline-style: solid;
+background-color: #04eeee;
+text-align: center;
 }
 h2{
 display: flex;
 justify-content: flex-end;
 font-family: Arial, sans-serif;
-
 }
-
 h4{
   text-align: center;
-}
-
-
-#center{
-    margin: auto;
-    width: 100%;
-    padding: 1px;
-    text-align: right;
-
-
 }
 nav {
   display: flex;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
   background-color: #01C9BD;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-
 }
 .sticky {
   position: fixed;
@@ -64,25 +46,18 @@ nav a{
   color: white;
   text-decoration: none;
 }
-
 a{
 font-size: 23px;
-
 }
-
 p{
-
 font-size: 30px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
 }
 /* The navigation menu */
 .navbar {
   overflow: hidden;
   background-color: #01C9BD;
 }
-
 /* Navigation links */
 .navbar a {
   float: left;
@@ -91,15 +66,12 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
 }
-
 /* The subnavigation menu */
 .subnav {
   float: left;
   overflow: hidden;
 }
-
 /* Subnav button */
 .subnav .subnavbtn {
   font-size: 16px;
@@ -111,12 +83,10 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-family: inherit;
   margin: 0;  
 }
-
 /* Add a blue background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #01C9BD;
 }
-
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
@@ -126,20 +96,17 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   z-index: 1;
 }
-
 /* Style the subnav links */
 .subnav-content a {
   float: left;
   color: white;
   text-decoration: none;
 }
-
-/* Add a grey background color on hover */
+/* geeft een blauwe kleur  */
 .subnav-content a:hover {
   background-color: #eee;
   color: #01C9BD;
 }
-
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
@@ -149,7 +116,6 @@ nav ul {
   align-items: center;
   list-style-type: none;
 }
-
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
@@ -158,12 +124,51 @@ nav a{
   color: white;
   text-decoration: none;
 }
-
 .MBIMG{
-
-height: 20px;
-width: 30px;
+height: 30%;
+width: 48%; 
+display: block;
 margin-left: auto;
 margin-right: auto;
-
+}
+.canvascenter {
+  margin: auto;
+width: 70%;
+}
+.canvascontainer {
+  display: flexbox;
+}
+.canvastekstblok {
+  flex: 1; 
+  padding: 20px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  outline-style: solid;;
+  background-color: #01C9BD;
+  width: 30vw;
+  text-align: left;
+  border-radius: 0.3cm;
+  height: 50vh;   
+}
+.achtergrondinfop{
+  padding: 15px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  outline-style: solid;;
+  background-color: #01C9BD;
+  width: 70vw;
+  text-align: left;
+  border-radius: 0.3cm;
+  height: 70vh;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;  
+  background: #01C9BD;
+  max-width: 10000px;
+  margin: auto;
 }

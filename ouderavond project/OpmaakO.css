@@ -155,6 +155,7 @@ width: 70%;
   align-items: center;
   justify-content: center;
 }
+
 .canvascenter{
   display: flex;
   text-align: center;
@@ -175,6 +176,9 @@ width: 70%;
   border-radius: 10px;
   color: white;
 }
+
+
+
 .agip{
   font-size: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

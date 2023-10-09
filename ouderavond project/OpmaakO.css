@@ -1,5 +1,7 @@
 body{
 background-color: #40ffff;
+max-width: 100%;
+margin: auto;
 }
 h1{
 font-size: 40px;
@@ -26,7 +28,7 @@ nav {
   margin: auto;
   background-color: #01C9BD;
   justify-content: center;
-  width: 100%;
+
 }
 .sticky {
   position: fixed;
@@ -53,12 +55,11 @@ p{
 font-size: 30px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* The navigation menu */
 .navbar {
   overflow: hidden;
   background-color: #01C9BD;
 }
-/* Navigation links */
+
 .navbar a {
   float: left;
   font-size: 16px;
@@ -67,12 +68,12 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 14px 16px;
   text-decoration: none;
 }
-/* The subnavigation menu */
+
 .subnav {
   float: left;
   overflow: hidden;
 }
-/* Subnav button */
+
 .subnav .subnavbtn {
   font-size: 16px;
   border: none;
@@ -83,11 +84,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-family: inherit;
   margin: 0;  
 }
-/* Add a blue background color to navigation links on hover */
+
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #01C9BD;
 }
-/* Style the subnav content - positioned absolute */
+
 .subnav-content {
   display: none;
   position: absolute;
@@ -96,18 +97,18 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   z-index: 1;
 }
-/* Style the subnav links */
+
 .subnav-content a {
   float: left;
   color: white;
   text-decoration: none;
 }
-/* geeft een blauwe kleur  */
+
 .subnav-content a:hover {
   background-color: #eee;
   color: #01C9BD;
 }
-/* When you move the mouse over the subnav container, open the subnav content */
+
 .subnav:hover .subnav-content {
   display: block;
 }
@@ -186,14 +187,14 @@ width: 70%;
   border-radius: 0.3cm;
   height: 70vh;
 }
-#footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 60px;  
-  background: #01C9BD;
-  max-width: 10000px;
-  margin: auto;
+footer {
+    background-color: #01C9BD;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .agicenter{

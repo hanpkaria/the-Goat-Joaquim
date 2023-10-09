@@ -9,7 +9,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     outline-style: solid;
     background-color: #04eeee;
-    width: 10cm;
+    
     text-align: center;
 
 }
@@ -29,6 +29,9 @@ h4{
     margin: auto;
     width: 100%;
     padding: 1px;
+    text-align: right;
+
+
 }
 nav {
   display: flex;
@@ -67,13 +70,6 @@ font-size: 23px;
 
 }
 
-img{
-
-  margin-top: 200px;
-  display: block; 
-
-}
-
 p{
 
 font-size: 30px;
@@ -95,6 +91,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 /* The subnavigation menu */
@@ -160,4 +157,13 @@ nav li {
 nav a{
   color: white;
   text-decoration: none;
+}
+
+.MBIMG{
+
+height: 20px;
+width: 30px;
+margin-left: auto;
+margin-right: auto;
+
 }

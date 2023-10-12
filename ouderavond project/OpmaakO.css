@@ -151,10 +151,11 @@ margin-right: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
-  width: 90vw;
-  height: 70vh;
+  width: 80vw;
+  height: 60vh;
 }
 .canvastext-box {
+  font-size: 7mm;
   background-color: #01C9BD;
   padding: 20px;
   border-radius: 10px;

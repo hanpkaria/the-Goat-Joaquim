@@ -152,10 +152,11 @@ margin-right: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
-  width: 90vw;
-  height: 70vh;
+  width: 80vw;
+  height: 60vh;
 }
 .canvastext-box {
+  font-size: 7mm;
   background-color: #01C9BD;
   padding: 20px;
   border-radius: 10px;
@@ -195,7 +196,7 @@ footer {
   background-color: #01C9BD;
   color: #fff;
   text-align: center;
-  padding: 10px;z
+  padding: 10px;
 }
 
 .agicenter{
@@ -209,4 +210,88 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.overonscenter{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+
+  font-family: arial, sans-serif;
+
+  border-collapse: collapse;
+
+  width: 100%;
+
+}
+
+ 
+
+td, th {
+
+  border: 1px solid #dddddd;
+
+  text-align: left;
+
+  padding: 8px;
+
+}
+#Textoverons{
+
+  display: flex;
+
+}
+
+#tekstgids{
+
+  display: flex;
+
+  font-size: large;
+
+ 
+
+}
+
+table, th, td {
+
+  border: 1px solid black;
+
+  border-collapse: collapse;
+
+}
+
+.overonscolumn {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  width: 90vw;
+  height: 20vh;
+}
+.overonstext-box {
+  font-size: 5mm;
+  background-color: #01C9BD;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+#fotojoaquim{
+  float: left;
+  width: 200px;
+}
+
+.ouderavondp{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  margin: auto;
+  outline-style: solid;
+  background-color: #01C9BD;
+  width: 70vw;
+  text-align: left;
+  border-radius: 0.3cm;
+  height: 40vh;
 }

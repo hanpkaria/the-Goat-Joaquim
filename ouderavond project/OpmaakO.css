@@ -306,5 +306,15 @@ table, th, td {
   width: 70vw;
   text-align: left;
   border-radius: 0.3cm;
-  height: 40vh;
+  height: 60vh;
+  align-items: center;
+}
+.foto-examenplan{
+width: 70vw;
+height: 60vh;
+align-items: center;
+
+
+
+
 }

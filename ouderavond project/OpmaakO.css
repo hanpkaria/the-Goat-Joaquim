@@ -283,6 +283,11 @@ table, th, td {
   width: 200px;
 }
 
+#fotohimanshu{
+  float: left;
+  width: 200px;
+}
+
 .ouderavondp{
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
